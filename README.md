@@ -1,12 +1,13 @@
 # Nutch Plugin
+Nutch 2.3.1 plugin for Whitelisting/Blacklisting specific HTML elements.
 
 ## element-filter
-Nutch 2.3.1 plugin for whitelisting/blacklisting specific HTML elements.
-Based on Nutch 1.x plugin called index-blacklist-whitelist by Elisabeth Adler (full credit to the original author).
-### How to install or build it?
-Usage
-======================
+Sometimes (I think most of time) you just need some of the element in the web pages, means you need a neat content. So, you will consider it with **HTML tag or selector** in your pages.
 
+### How to install or build it?
+I will have to write it!
+
+### Usage
 To filter HTML elements before parsing, add the following to your nutch-site.xml
 
     <property>
