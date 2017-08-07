@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin
-   id="element-selector"
+   id="element-filter"
    name="Blacklist and Whitelist Parser and Indexer"
    version="1.0.0"
    provider-name="kaqqao">
 
    <runtime>
-      <library name="element-selector.jar">
+      <library name="element-filter.jar">
          <export name="*"/>
       </library>
    </runtime>
