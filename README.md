@@ -1,5 +1,6 @@
-#Nutch
-##element-filter
+# Nutch
+
+## element-filter
 ======================
 
 Nutch 2.3.1 plugin for whitelisting/blacklisting specific HTML elements.
