@@ -5,7 +5,7 @@
 Sometimes (I think most of time) you just need some of the element in the web pages, means you need a neat content. So, you will consider it with **HTML tag or selector** in your pages.
 
 ### How to install or build it?
-We used _Ubuntu 14.04_ to install and run and this manual is based on it.
+We used `Ubuntu 14.04` to install and run and this manual is based on it.
 
 <ol>
 <li>Download Nutch (<i>src</i> version).</li>
