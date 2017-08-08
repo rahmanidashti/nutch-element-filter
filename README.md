@@ -15,9 +15,9 @@ We used `Ubuntu 14.04` to install and run and this manual is based on it. We use
 2. Copy the _element-filter_ folder in {$nutch-home}/src/plugin.
 3. Open the _build.xml_ file from {$nutch-home}/src/plugin and write the following command in the `deploy`, `test`, and `clean` respectively.
 
-	- `<ant dir=”element-filter” target=”deploy”/>`
-	- `\<ant dir=”element-filter” target=”test”\/\>`
-	- `\<ant dir=”element-filter” target=”clean”\/\>`
+	- `<ant dir="element-filter" target="deploy"/>`
+	- `<ant dir="element-filter" target="test"/>`
+	- `<ant dir="element-filter" target="clean"/>`
 	
 4. 
 
