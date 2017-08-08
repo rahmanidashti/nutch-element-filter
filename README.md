@@ -1,17 +1,15 @@
 # Nutch Plugin
-[Nutch](http://nutch.apache.org/) 2.3.1 plugin for Whitelisting/Blacklisting specific HTML elements.
+[Nutch](http://nutch.apache.org/) plugin for Whitelisting/Blacklisting specific HTML elements.
 
 ## element-filter
 Sometimes (I think most of time) you just need some of the element in the web pages, means you need a neat content. So, you will consider it with **HTML tag or selector** in your pages.
 
 ### How to install or build it?
-We used `Ubuntu 14.04` to install and run and this manual is based on it.
+We used `Ubuntu 14.04` to install and run and this manual is based on it. We used `Apache Nutch 2.3.1`, and we do not know it works on the other version of Nutch.
 
-<ol>
-<li>Download Nutch (<i>src</i> version).</li>
-<li>McHale</li>
-<li>Parish</li>
-</ol>
+1. [Download](http://nutch.apache.org/downloads.html) Nutch (_src_ version) 
+	- _Apache Nutch 2.3.1 (src.tar.gz)_
+2. 
 
 ### Usage
 To filter HTML elements before parsing, add the following to your nutch-site.xml
