@@ -5,8 +5,9 @@
 Sometimes (I think most of time) you just need some of the element in the web pages, means you need a neat content. So, you will consider it with **HTML tag or selector** in your pages.
 
 ### How to install or build it?
+**Platrotm: Ubuntu 14.04**
 <ol>
-<li>Download the _src_ Nutch.</li>
+<li>Download Nutch (<i>src</i> version).</li>
 <li>McHale</li>
 <li>Parish</li>
 </ol>
