@@ -1,5 +1,5 @@
 # Nutch Plugin
-Nutch 2.3.1 plugin for Whitelisting/Blacklisting specific HTML elements.
+{Nutch}[http://nutch.apache.org/] 2.3.1 plugin for Whitelisting/Blacklisting specific HTML elements.
 
 ## element-filter
 Sometimes (I think most of time) you just need some of the element in the web pages, means you need a neat content. So, you will consider it with **HTML tag or selector** in your pages.
