@@ -20,7 +20,9 @@ We used `Ubuntu 14.04` to install and run and this manual is based on it. We use
 	- `<ant dir="element-filter" target="test"/>`
 	- `<ant dir="element-filter" target="clean"/>`
 	
-4. 
+4. Set your Nutch settings (_ivy.xml, gora.properties,nutch-site.xml_).
+
+5. Build Nutch. In {$nutch-home} run `ant runtime`.
 
 ### Usage
 To filter HTML elements before parsing, add the following to your nutch-site.xml
