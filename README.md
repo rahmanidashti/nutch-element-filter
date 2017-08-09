@@ -13,8 +13,10 @@ We used `Ubuntu 14.04` to install and run and this manual is based on it. We use
 
 1. [Download](http://nutch.apache.org/downloads.html) Nutch (_src_ version) 
 	- _Apache Nutch 2.3.1 (src.tar.gz)_
-2. Copy the _element-filter_ folder in {$nutch-home}/src/plugin.
-3. Open the _build.xml_ file from {$nutch-home}/src/plugin and write the following command in the `deploy`, `test`, and `clean` respectively.
+	
+2. Copy the _element-filter_ folder in _{$nutch-home}/src/plugin_.
+
+3. Open the _build.xml_ file from _{$nutch-home}/src/plugin_ and write the following command in the `deploy`, `test`, and `clean` respectively.
 
 	- `<ant dir="element-filter" target="deploy"/>`
 	- `<ant dir="element-filter" target="test"/>`
@@ -22,9 +24,9 @@ We used `Ubuntu 14.04` to install and run and this manual is based on it. We use
 	
 4. Set your Nutch settings (_ivy.xml, gora.properties,nutch-site.xml_).
 
-5. Build Nutch. In {$nutch-home} run `ant runtime`.
+5. Build Nutch. In _{$nutch-home}_ run `ant runtime`.
 
-### Usage
+### How to use?
 To filter HTML elements before parsing, add the following to your nutch-site.xml
 
     <property>
