@@ -27,7 +27,7 @@ We used `Ubuntu 14.04` to install and run and this manual is based on it. We use
 5. Build Nutch. In _{$nutch-home}_ run `ant runtime`.
 
 ### How to use?
-To filter HTML elements before parsing, add the following to your nutch-site.xml
+To filter HTML elements before parsing, add the following to your _nutch-site.xml_.
 
     <property>
         <name>parser.html.selector.blacklist</name>
@@ -46,7 +46,7 @@ To filter HTML elements before parsing, add the following to your nutch-site.xml
         </description>
     </property>
 
-or, for a whitelist, replace parser.html.selector.blacklist with parser.html.selector.whitelist.
+Or, for a whitelist, replace `parser.html.selector.blacklist` with `parser.html.selector.whitelist`.
 
 To protect certain pages from filtering, add the following:
 
@@ -66,11 +66,11 @@ By default, the filtered content will replace the original. If instead you want 
 
 Also, define a corresponding additional field for your storage if necessary (e.g. add a new column to your RDBMS schema) and add an additional field definition to your Solr schema if you're using Solr.
 
-To enable the plugin, override the default list by adding the following (notice the addition of `element-selector`):
+To enable the plugin, override the default list by adding the following (notice the addition of `element-filter`):
 
     <property>
     	<name>plugin.includes</name>
-		<value>protocol-http|urlfilter-regex|parse-(html|tika)|element-selector|index-(basic|anchor)|urlnormalizer-(pass|regex|basic)|scoring-opic</value>
+		<value>protocol-http|urlfilter-regex|parse-(html|tika)|element-filter|index-(basic|anchor)|urlnormalizer-(pass|regex|basic)|scoring-opic</value>
 		<description>
 			Regular expression naming plugin directory names to
 			include.  Any plugin not matching this expression is excluded.
@@ -82,4 +82,4 @@ To enable the plugin, override the default list by adding the following (notice 
 		</description>
 	</property>
     
-Unless you're overriding the storage field, it is important to include `element-selector` _before_ `index-(basic|anchor)`!
+Unless you're overriding the storage field, it is important to include `element-filter` _before_ `index-(basic|anchor)`!
