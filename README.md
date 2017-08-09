@@ -7,6 +7,7 @@ Sometimes (I think most of time) you just need some of the element in the web pa
 ### How to install or build it?
 We used `Ubuntu 14.04` to install and run and this manual is based on it. We used `Apache Nutch 2.3.1`, and we do not know it works on the other version of Nutch.
 
+> Please be sure you have installed or configuared JAVA and ANT in your machine.
 
 0. Download plugin (_nutch-elemet-filter_)
 
